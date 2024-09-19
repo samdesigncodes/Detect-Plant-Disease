@@ -1,8 +1,9 @@
 tensorflow==2.16.1
-numpy>=1.26.0,<2.0.0  # Adjust numpy version to match TensorFlow's requirement
+numpy==1.21.0 # Adjust numpy version to match TensorFlow's requirement
 streamlit==1.10.0
 pandas==1.3.3
 setuptools>=58.0.0
 
 wheel
 Cython
+pip>=24.2
